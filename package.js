@@ -80,6 +80,8 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
+  api.versionsFrom('METEOR@1.4.0.1');
+
   api.use('useraccounts:core@1.14.2');
 
   api.use([
